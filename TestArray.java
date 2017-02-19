@@ -6,6 +6,7 @@ public class TestArray {
 		int[] oddNumbers = new int[numbers.length];
 		
 		 oddArray(numbers, numbers.length, oddNumbers);
+		 System.out.println("Odd Numbers in Array: ");
 		 printArray(oddNumbers,oddNumbers.length);
 		
 	}
@@ -13,7 +14,6 @@ public class TestArray {
 		length--;
 		if(length>=0) {
 			if((numbers[length] % 2) != 0) { 
-				//System.out.println("Prime Number"+numbers[length]);
 				oddNumbers[length] =numbers[length]; 
 			}
 			oddArray(numbers, length, oddNumbers);
@@ -23,7 +23,7 @@ public class TestArray {
 		length--;
 		if(length>=0) {
 			if(numbers[length]!=0)
-			System.out.println("Odd Number in Array"+numbers[length]);
+				System.out.println(numbers[length]);
 			printArray(numbers, length);
 		}
 	}
