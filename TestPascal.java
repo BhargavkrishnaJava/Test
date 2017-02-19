@@ -18,7 +18,6 @@ public class TestPascal {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//int rows, i, k, count = 1, j;
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter Number of Rows : ");
 		int rows = scan.nextInt();
