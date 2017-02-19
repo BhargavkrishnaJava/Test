@@ -23,7 +23,7 @@ public class TestArray {
 		length--;
 		if(length>=0) {
 			if(numbers[length]!=0)
-			System.out.println("Prime Number in Array"+numbers[length]);
+			System.out.println("Odd Number in Array"+numbers[length]);
 			printArray(numbers, length);
 		}
 	}
