@@ -24,7 +24,7 @@ public class TestArray {
 		if(length>=0) {
 			if(numbers[length]!=0)
 				System.out.println(numbers[length]);
-			printArray(numbers, length);
+			printArray(numbers, length); 
 		}
 	}
 	
